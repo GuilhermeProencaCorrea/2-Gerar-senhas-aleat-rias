@@ -13,14 +13,14 @@
 <div class="containerpai">
 <div class="C1">
     <h1>Gerar Senhas</h1>
-    <!-- <p>Digite o tamanho da senha</p> -->
     <div>
-    <input type="text" id="tamanho" value="" placeholder="Digite o tamanho da senha"> 
-    <button onclick="gerarCodigoAleatorio()" id="button">Gerar</button>
+        <span>Tamanho <span id="size"></span> caracteres</span>
+        <input type="range" min="5" max="20" id="size_senha_slider" value="10">
+        <button onclick="gerarCodigoAleatorio()" id="button">Gerar</button>
     </div>
 </div>
 <div class="C2">
-    <p id="senhaGerada"></p>
+    <span id="senhaGerada" class="senhaGerada hide"></span>
 </div>
 </div>
 
