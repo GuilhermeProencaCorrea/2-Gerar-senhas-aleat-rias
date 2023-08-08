@@ -5,20 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerar Senhas</title>
-    <link rel="stylesheet" href="./css/1 Estrutura.css">
+    <link rel="stylesheet" href="./style.css">
     <a href="./style.css"></a>
 </head>
 <body>
   
-<h1>Gerar Senhas</h1>
-<p>Digite o tamanho da senha</p>
-<div>
-<input type="text" id="tamanho" value=""> 
-<button onclick="gerarCodigoAleatorio()" id="button">Gerar</button>
+<div class="containerpai">
+<div class="C1">
+    <h1>Gerar Senhas</h1>
+    <!-- <p>Digite o tamanho da senha</p> -->
+    <div>
+    <input type="text" id="tamanho" value="" placeholder="Digite o tamanho da senha"> 
+    <button onclick="gerarCodigoAleatorio()" id="button">Gerar</button>
+    </div>
 </div>
-<p id="senhaGerada"></p>
-   
-    
+<div class="C2">
+    <p id="senhaGerada"></p>
+</div>
+</div>
+
 <script src="./script.js"></script>       
 </body>
 </html>
